@@ -4,27 +4,42 @@ console.log("hello world!");
 
 //exercice 02//
 
-var test;
+let test;
 test = "My name is Caroline";
 console.log(test);
 
 //exercice 03//
 
-var name;
+let name;
 name = "Caroline";
 console.log("Nice to meet you " + (name));
 console.log(`Nice to meet you ${name}`);
 
 //exercice 04//
-var testLength;
+let testLength;
 testLength = "I m very long";
 console.log(test.length);
 
 //exercice 05//
 
-var food;
+let food;
 food = "croissant is meh";
 food = food.replace ("meh", "so good")
 console.log(food);
+
+//exercice 06//
+
+let basic = "this is cool";
+let basicUp = basic.toUpperCase();
+let basicDown = basic.toLowerCase();
+console.log(basic, basicUp, basicDown);
+console.log(`${basic} ${basicUp} ${basicDown}`);
+
+//exercice 07//
+
+let word = "banana";
+let letters = word.split("");
+console.log(letters);
+
 
 
