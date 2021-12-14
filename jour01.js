@@ -47,6 +47,16 @@ let age = 28;
 let template = `I'm ${age} years old`;
 console.log(template);
 
+//BONUS//
+ 
+
+
+let hello= "bonjour";
+let newHello = hello.replaceAll("o", "a");
+console.log(newHello);
+
+let chaine = "Le chocolat c'est bon";
+console.log(chaine.substring(3, 6));
 
 
 
