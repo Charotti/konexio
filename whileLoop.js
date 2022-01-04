@@ -42,6 +42,11 @@ if (ussainBolt >= tysonGay) {
 
 console.log(winner);
 
+//EXERCICE 4//
+
+/*console.log(box2)  retournera 5
+console.log(box1) retournera 2*/
+
 
 
 

@@ -1,6 +1,6 @@
 
 
-function checkIfEven (num){
+unction checkIfEven (num){
 
 
     if (num % 2 === 0) {  
@@ -13,6 +13,9 @@ function checkIfEven (num){
 };
 
 checkIfEven(7);
+
+
+
 
 
 
