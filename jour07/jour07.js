@@ -39,6 +39,29 @@ const shorNames= longNames.map(function(name) {
 });
 console.log(shorNames);
 
+//EXERCICE 04//
+
+// const array= [1, "toto", 34, "javascript", 8];
+
+// const number= array.filter(function(number) {
+
+//     return   Number.isInteger(number);
+
+// })
+// console.log(number);
+
+//EXERCICE 05//
+
+// const numbers= [1, 2, 3, 4, 5, 6, 7, 8];
+// const even= numbers.filter(function (number) {
+//     return number % 2 === 0;
+// })
+//  console.log(even);
+
+
+
+
+
 
 
 
