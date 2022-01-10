@@ -21,23 +21,23 @@
 
 //EXERCICE 03//
 
-const longNames= 
-[
-	{
-		firstName: "Jane",
-		lastName: "Doe"
-	},
-	{
-		firstName: "John",
-		lastName: "Smith"
-	}
-]
-console.log(longNames);
+// const longNames= 
+// [
+// 	{
+// 		firstName: "Jane",
+// 		lastName: "Doe"
+// 	},
+// 	{
+// 		firstName: "John",
+// 		lastName: "Smith"
+// 	}
+// ]
+// console.log(longNames);
 
-const shorNames= longNames.map(function(name) {
-    return ` ${name.firstName} ${name.lastName}`
-});
-console.log(shorNames);
+// const shorNames= longNames.map(function(name) {
+//     return ` ${name.firstName} ${name.lastName}`
+// });
+// console.log(shorNames);
 
 //EXERCICE 04//
 
@@ -57,6 +57,57 @@ console.log(shorNames);
 //     return number % 2 === 0;
 // })
 //  console.log(even);
+
+//EX06//
+
+const cakes=
+
+[
+	{
+		name: "cake",
+		flavor: "vanilla",
+		status: "available"
+	},
+	{
+		name: "brownie",
+		flavor: "chocolate",
+		status: "available"
+	},
+	{
+		name: "pie",
+		flavor: "strawberry",
+		status: "available"
+	},
+	{
+		name: "muffin",
+		flavor: "pistachio",
+		status: "available"
+	},
+	{
+		name: "donut",
+		flavor: "chocolate",
+		status: "available"
+	},
+]
+
+const chocoCake= cakes
+.filter(function (cake) {
+    return cake.flavor === "chocolate"
+
+
+})
+
+
+.map(function (chocoCake) {
+    return {
+        name: chocoCake.name,
+        flavor: chocoCake.flavor,
+        status: "sold out"
+    }
+});
+
+
+console.log(chocoCake);
 
 
 
