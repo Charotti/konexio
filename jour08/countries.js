@@ -24,13 +24,29 @@ const axios = require("axios");
 
 //EXERCICE 02//
 
-function getFact() {
+// function getFact() {
 
-    axios.get("https://api.chucknorris.io/jokes/random").then(function (res) {
-        console.log(res.data.value)
-    });
+//     axios.get("https://api.chucknorris.io/jokes/random").then(function (res) {
+//         console.log(res.data.value)
+//     });
+// }
+// getFact();
+
+
+//03 POKEMON//
+
+function catchPokemon(number) {
+    id: "";
+    name: "";
+    axios.get(`https://pokeapi.co/api/v2/pokemon/${number}`).then(function (res) {
+        console.log("id :", number);
+        console.log("name :", res.data.forms[0].name)
+      
+    })
 }
-getFact();
+catchPokemon(28);
+
+
 
 
 
